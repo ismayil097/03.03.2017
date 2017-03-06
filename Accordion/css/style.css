@@ -1,0 +1,49 @@
+body{
+    font-family: Calibri;
+    background-color: azure;
+}
+#menu{
+    width: 960px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    padding:30px;
+    font-size: 35px;
+    color: white;
+    background-color: darkcyan;
+    margin-bottom: 10px;
+}
+button.accordion {
+    background-color: cyan;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 10px;
+    border-radius: 2px;
+}
+button.accordion.active, button.accordion:hover {
+    background-color:darkcyan;
+    color:white;
+}
+div.panel {
+    padding: 0 18px;
+    background-color: azure;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+div.panel p{
+    font-size: 18px;
+    padding:10px;
+}
+

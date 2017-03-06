@@ -1,0 +1,75 @@
+#main{
+    margin: 0 auto;
+    width: 1300px;
+    height:500px;
+    background-color: gray;
+    text-align: center;
+    position: relative;
+}
+#kvadrat{
+    width: 150px;
+    height: 150px;
+    background: black;
+    display: inline-block;
+    transition: .25s ease;
+    position:relative;
+    top:40px;
+}
+#ucbucaq{
+    width: 0;
+    border-left:90px solid black;
+    border-right:75px solid transparent;
+    border-bottom:75px solid transparent;
+    border-top:75px solid transparent;
+    display: inline-block;
+    transition: border-width .25s ease;
+    position:relative;
+    top:40px;
+}
+#daire{
+    width: 150px;
+    height: 150px;
+    background: black;
+    border-radius: 100%;
+    display: inline-block;
+    transition: .25s ease;
+    position:relative;
+    top:40px;
+}
+.same{
+    margin:0 60px;
+}
+.change{
+    float: left;
+    position: absolute;
+    top:200px;
+    font-weight: bold;
+    color: azure;
+}
+.change button{
+    color:white;
+    padding:10px;
+    background-color: darkblue;
+    border: 1px solid darkblue;
+}
+.change input{
+    width: 50px;
+    color:white;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.clear{
+    clear: both;
+}
+#kvadrat-c{
+    margin-top:200px;
+    left:200px;
+}
+#daire-c{
+    margin-top:200px;
+    left:500px;
+}
+#ucbucaq-c{
+    margin-top:200px;
+    left:800px;
+}

@@ -1,0 +1,28 @@
+.main{
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: lightgray;
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+    padding-top:10px;
+}
+p{
+    text-align: justify;
+    padding:10px;
+}
+button{
+    padding:5px 20px;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+button:hover{
+    background-color: darkblue;
+    border: 1px solid darkblue;
+    color: white;
+}

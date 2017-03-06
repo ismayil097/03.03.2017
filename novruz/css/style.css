@@ -1,0 +1,26 @@
+body{
+    box-sizing: border-box;
+}
+#main{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    padding:20px;
+    font-weight: bold;
+}
+#novruz{
+    margin: 0px auto;
+    width: 600px;
+    height: auto;
+    background-color:darkcyan;
+    padding:20px;
+    color: white;
+    font-size: 30px;
+}
+#novruz:hover{
+    background-color:darkslategray;
+}

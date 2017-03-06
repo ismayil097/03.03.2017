@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music-player</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="foto"><img src="img/music-player.jpg" alt=""></div>
+        <div id='player'>
+            <audio id="music_player">
+                <source src="music/Hello%20(Adele).mp3"/>
+            </audio>
+            <input type="image" src="img/play.png" onclick="play_aud()" >
+            <input type="image" src="img/pause.png" onclick="pause_aud()">
+            <input type="image" src="img/stop.png" onclick="stop_aud()">
+            <img src="img/volume.png" id="vol_img">
+            <input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
